@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/georg/xilinx-workspace/phase2/PROCESSOR_MC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="arrayin_type" />
+            <top_module name="numeric_std" />
+            <top_module name="processor_mc_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/processor_mc_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/ir_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ir_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/ControlMultiCycleUnit/current_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden</obj_property>
+      <obj_property name="ObjectShortName">pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/InstructionDecoding/RegisterFile/awr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/alu_func" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/alu_ovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_ovf</obj_property>
+      <obj_property name="ObjectShortName">alu_ovf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/alu_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/InstructionDecoding/RegisterFile/\register1to31(3)\/RegisterI/dataout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="label">r3</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/InstructionDecoding/RegisterFile/\register1to31(4)\/RegisterI/dataout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="label">r4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/InstructionDecoding/RegisterFile/\register1to31(5)\/RegisterI/dataout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="label">r5</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/InstructionDecoding/RegisterFile/\register1to31(10)\/RegisterI/dataout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="label">r10</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut/DatapathMultiCycleUnit/InstructionDecoding/RegisterFile/\register1to31(16)\/RegisterI/dataout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="label">r16</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut2/ram[1024]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1024]</obj_property>
+      <obj_property name="ObjectShortName">ram[1024]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut2/ram[1025]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1025]</obj_property>
+      <obj_property name="ObjectShortName">ram[1025]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut2/ram[1026]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1026]</obj_property>
+      <obj_property name="ObjectShortName">ram[1026]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut2/ram[1028]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1028]</obj_property>
+      <obj_property name="ObjectShortName">ram[1028]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_mc_tb/uut2/ram[2047]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2047]</obj_property>
+      <obj_property name="ObjectShortName">ram[2047]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
